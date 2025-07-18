@@ -4,12 +4,12 @@ from typing import List, Dict, Any, Optional
 from neo4j import Driver, Transaction
 from embedder import GorqEmbedder
 from config import (
-    NODE_LABEL_FOR_INDEX, # Akan menjadi "Chunk"
+    NODE_LABEL_FOR_INDEX, 
     EMBEDDING_PROPERTY,
     MAX_TOKENS_PER_CHUNK,
     TOKEN_OVERLAP,
 )
-from transformers import PreTrainedTokenizerBase # Untuk typing
+from transformers import PreTrainedTokenizerBase 
 
 class Neo4jDataInserter:
     def __init__(self, driver: Driver, embedder: GorqEmbedder):
@@ -23,7 +23,7 @@ class Neo4jDataInserter:
         
         self.max_tokens = MAX_TOKENS_PER_CHUNK
         self.overlap = TOKEN_OVERLAP
-        self.chunk_node_label = NODE_LABEL_FOR_INDEX # "Chunk"
+        self.chunk_node_label = NODE_LABEL_FOR_INDEX
 
     def _tokenize_text(self, text: str) -> List[int]:
         if not self.tokenizer:

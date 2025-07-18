@@ -1,6 +1,6 @@
 # neo4j_vector_search.py
 from typing import List, Dict, Any, Optional
-from neo4j import Driver, Session # Import Session untuk type hinting
+from neo4j import Driver, Session
 from embedder import GorqEmbedder
 from config import driver as default_driver, INDEX_NAME as DEFAULT_INDEX_NAME
 
@@ -14,7 +14,7 @@ class Neo4jVectorSearcher:
         "InformasiTambahan_PendaftaranSiswaBaru", "InformasiTambahan_PrestasiSekolah",
         "InformasiTambahan_ProgramBeasiswa", "InformasiTambahan_TataTertibSekolah",
         "InformasiTambahan_TransportasiUmum", "InformasiTambahan_SeragamSekolah"
-        # Sesuaikan daftar ini dengan semua kategori yang Anda pecah menjadi chunk
+        
     ]
 
     def __init__(self, driver_instance: Driver, embedder_instance: GorqEmbedder, index_name: str = DEFAULT_INDEX_NAME):
@@ -103,10 +103,10 @@ class Neo4jVectorSearcher:
         print(f"DEBUG: Menjalankan vector search: '{user_question[:50]}...', top_k: {top_k}")
         initial_retrieved_chunks: List[Dict[str, Any]] = []
         final_llm_contexts: List[Dict[str, Any]] = []
-        processed_ids = set() # Menyimpan ID head_chunk (untuk sekuensial) atau nodeId (untuk non-sekuensial)
+        processed_ids = set() 
 
         try:
-            with self.driver.session(database="neo4j") as session: # Ganti "neo4j" jika perlu
+            with self.driver.session(database="neo4j") as session: 
                 result = session.run(
                     cypher_query_initial_search,
                     index_name=self.vector_index_name, top_k=top_k, embedding_vector=query_embedding
@@ -118,50 +118,41 @@ class Neo4jVectorSearcher:
                     vss_hit_chunk_id = vss_hit_chunk_data["nodeId"]
                     score = vss_hit_chunk_data["score"]
                     
-                    unique_item_id_to_check = None # ID yang akan dicek di processed_ids
+                    unique_item_id_to_check = None 
                     is_sequential = category in self.SEQUENTIAL_CATEGORIES
 
                     if is_sequential:
-                        # "Traversal ke atas" untuk menemukan head dari sequence
                         head_id = self._find_sequence_head_id(session, vss_hit_chunk_id, category)
                         if head_id:
                             unique_item_id_to_check = head_id
                         else:
-                            # Jika head tidak ditemukan untuk item sekuensial, kita bisa memilih untuk melewatinya
-                            # atau memperlakukannya sebagai item tunggal (menggunakan vss_hit_chunk_id)
-                            # Untuk konsistensi "lewati jika duplikat", kita butuh ID unik.
-                            # Jika head tidak ketemu, mungkin ada masalah data atau chunk ini "yatim".
                             print(f"WARN: Tidak menemukan head untuk chunk sekuensial ID {vss_hit_chunk_id}, kategori {category}. Dilewati.")
                             continue 
-                    else: # Bukan kategori sekuensial
-                        unique_item_id_to_check = vss_hit_chunk_id # Gunakan ID chunk itu sendiri
-
+                    else:
+                        unique_item_id_to_check = vss_hit_chunk_id 
                     if unique_item_id_to_check in processed_ids:
-                        # Item ini (atau sequence-nya) sudah diproses. Lewati.
+                        
                         print(f"DEBUG: Item dengan ID unik {unique_item_id_to_check} sudah diproses. Melewati VSS hit chunk {vss_hit_chunk_id}.")
                         continue
 
-                    # Jika belum diproses:
-                    if is_sequential and unique_item_id_to_check: # unique_item_id_to_check adalah head_id di sini
-                        # "Mengambil chunk sisanya yang dibawahnya"
+                    if is_sequential and unique_item_id_to_check: 
                         full_sequence_texts = self._get_full_sequence_from_head(session, unique_item_id_to_check, category)
                         if full_sequence_texts:
                             combined_text = " ".join(full_sequence_texts)
                             final_llm_contexts.append(self._format_context_item(
                                 combined_text, category, score, "expanded_sequence", vss_hit_chunk_id, unique_item_id_to_check
                             ))
-                            processed_ids.add(unique_item_id_to_check) # Tandai head_id ini sebagai sudah diproses
+                            processed_ids.add(unique_item_id_to_check) 
                         else:
                             print(f"WARN: Gagal mengambil sequence dari head_id {unique_item_id_to_check} (dari VSS hit {vss_hit_chunk_id}).")
-                    elif not is_sequential and unique_item_id_to_check: # unique_item_id_to_check adalah vss_hit_chunk_id
+                    elif not is_sequential and unique_item_id_to_check: 
                         final_llm_contexts.append(self._format_context_item(
                             vss_hit_chunk_data["text_content"], category, score, "original_chunk_non_sequential", vss_hit_chunk_id, None
                         ))
-                        processed_ids.add(unique_item_id_to_check) # Tandai chunk_id non-sekuensial ini sebagai sudah diproses
+                        processed_ids.add(unique_item_id_to_check) 
         
         except Exception as e:
             print(f"ERROR: Saat vector search atau pemrosesan hasil: {e}")
-            # Kembalikan apa yang sudah terkumpul atau list kosong
             return final_llm_contexts if 'final_llm_contexts' in locals() else []
 
 
@@ -177,10 +168,7 @@ class Neo4jVectorSearcher:
         
         return final_llm_contexts
 
-# Contoh penggunaan (tetap sama seperti sebelumnya)
 if __name__ == "__main__":
-    # ... (kode __main__ Anda yang sudah ada) ...
-    # Pastikan untuk menutup driver di finally block
     from config import driver as main_test_driver
     
     if not main_test_driver:

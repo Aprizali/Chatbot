@@ -3,7 +3,7 @@ from typing import List, cast
 from sentence_transformers import SentenceTransformer
 from config import EMBEDDING_MODEL_NAME
 
-class GorqEmbedder: # Nama kelas mungkin perlu disesuaikan jika tidak benar-benar menggunakan Groq untuk embedding
+class GorqEmbedder: 
     def __init__(self, model_name: str = EMBEDDING_MODEL_NAME):
         """
         Inisialisasi embedder dengan model SentenceTransformer.
@@ -30,12 +30,12 @@ class GorqEmbedder: # Nama kelas mungkin perlu disesuaikan jika tidak benar-bena
         """
         if not self.model:
             print("ERROR: Model embedding tidak terinisialisasi. Tidak dapat membuat embedding.")
-            return [[] for _ in texts] # Kembalikan list of empty lists agar tidak error di pemanggil
+            return [[] for _ in texts] 
 
         prefix = "query: " if for_query else "passage: "
         
         try:
-            # print(f"DEBUG: Embedding dengan prefix '{prefix}': {texts[:1]}...") # Untuk debugging
+            
             embeddings = self.model.encode(
                 [f"{prefix}{text}" for text in texts],
                 show_progress_bar=False,

@@ -1,10 +1,8 @@
 # create_index.py
 from config import driver, EMBEDDING_PROPERTY, NODE_LABEL_FOR_INDEX, INDEX_NAME
-from embedder import GorqEmbedder # Untuk mendapatkan dimensi secara dinamis
+from embedder import GorqEmbedder
 
 def create_vector_index_if_not_exists():
-    # Dapatkan dimensi embedding dari model
-    # Ini memastikan dimensi di index sesuai dengan model yang digunakan
     temp_embedder = GorqEmbedder()
     dimension = temp_embedder.dimension
     del temp_embedder

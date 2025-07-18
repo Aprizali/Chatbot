@@ -1,9 +1,9 @@
 # test_neo4j_conn.py
 from neo4j import GraphDatabase
 
-URI = "bolt://localhost:7687"
-# PASTIKAN PASSWORD DI SINI SAMA PERSIS DENGAN YANG ADA DI CONFIG.PY DAN BENAR-BENAR PASSWORD NEO4J ANDA
-AUTH = ("neo4j", "12345678") # Ganti "12345678" dengan password Anda yang sebenarnya
+URI = "neo4j+s://afd26999.databases.neo4j.io"
+# PASTIKAN PASSWORD DI SINI SAMA PERSIS DENGAN YANG ADA DI CONFIG.PY DAN BENAR-BENAR PASSWORD NEO4J
+AUTH = ("neo4j", "th-HaicSvvsZIY8oyK964w39JZ9BatwKrAtip7IkvlY")
 
 print(f"Mencoba menghubungkan ke Neo4j di {URI} dengan user '{AUTH[0]}'...")
 

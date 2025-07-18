@@ -28,7 +28,6 @@ def generate_answer(context: str, question: str) -> str:
         "-   **BIAYA PENDIDIKAN & SERAGAM**: Jika pertanyaan menyangkut biaya, selalu sebutkan untuk jurusan atau kelompok mana biaya tersebut berlaku. Rincikan komponen biaya (seperti DSP, SPP, item seragam) dan totalnya jika ada dalam konteks. Sebutkan juga skema cicilan jika informasinya tersedia.\n"
         "-   **KELAS INDUSTRI**: Jika ditanya tentang kelas industri (seperti Samsung atau Axioo), jelaskan secara lengkap mencakup jurusan terkait, manfaat yang didapat, biaya, dan kuota jika informasi tersebut ada di konteks.\n"
         "-   **PANDUAN PPDB**: Jika pertanyaan mengenai pendaftaran atau PPDB, jelaskan langkah-langkahnya secara berurutan sesuai alur yang ada di konteks.\n"
-        # --- ATURAN BARU DITAMBAHKAN DI SINI ---
         "-   **FARMASI/KESEHATAN**: Jika pertanyaan mengandung kata kunci 'farmasi' atau 'kesehatan', fokuskan jawaban pada informasi yang relevan dengan jurusan kefarmasian yang ada di dalam konteks, seperti 'Layanan Penunjang Kefarmasian Klinis & Komunitas (FAR)', biaya, atau item seragam terkait.\n"
         "-   **FILTERING**: Jika pengguna menanyakan daftar dengan kriteria spesifik (contoh: 'siapa saja **guru** RPL?'), perhatikan baik-baik kata 'guru' dan saring dari daftar 'tenaga pendidik dan staf' untuk hanya menampilkan yang jabatannya adalah guru, bukan kepala sekolah atau staf.\n"
     )
@@ -86,5 +85,3 @@ JAWABAN (Berdasarkan aturan di atas, dalam Bahasa Indonesia, dan pastikan untuk 
     except Exception as e:
         print(f"ERROR: Kesalahan tidak terduga saat memanggil Groq API: {e}")
         return "Maaf, terjadi kesalahan teknis yang tidak terduga."
-
-# (Bagian if __name__ == "__main__": tetap sama seperti sebelumnya)

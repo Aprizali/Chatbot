@@ -1,7 +1,6 @@
 # chatbot_ui.py
 import streamlit as st
 
-# Panggil st.set_page_config() sebagai perintah Streamlit pertama
 st.set_page_config(page_title="Chatbot MedikaCom", layout="wide", initial_sidebar_state="collapsed")
 
 from neo4j_vector_search import Neo4jVectorSearcher
@@ -65,7 +64,7 @@ if user_input:
         full_response_text = ""
         
         with st.spinner("🔍 Mencari informasi di database..."):
-            # Tingkatkan top_k untuk mengambil lebih banyak chunk potensial
+            # top_k untuk mengambil lebih banyak chunk potensial
             retrieved_items = app_searcher.search_similar_chunks(user_input, top_k=10) 
 
         if not retrieved_items:
@@ -83,9 +82,6 @@ if user_input:
             print("--- KONTEKS LENGKAP UNTUK LLM ---")
             print(context_for_llm) # Cetak konteks lengkap ke terminal
             print("---------------------------------")
-            # Anda juga bisa menampilkannya di UI untuk debugging jika mau:
-            # with st.expander("Konteks yang Dikirim ke LLM (Debug)"):
-            #    st.text(context_for_llm)
 
         with st.spinner("🧠 Menyiapkan jawaban dengan AI..."):
             ai_response = generate_answer(context_for_llm, user_input)

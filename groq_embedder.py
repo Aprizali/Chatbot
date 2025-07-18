@@ -6,7 +6,7 @@ class GorqEmbedder:
         self.model = SentenceTransformer(model_name)
 
     def embed(self, texts: List[str]) -> List[List[float]]:
-        # Instruction-tuning biasanya butuh prefix format seperti ini
+        
         return self.model.encode(
             [f"passage: {text}" for text in texts],
             show_progress_bar=True,
