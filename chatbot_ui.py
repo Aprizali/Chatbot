@@ -75,7 +75,7 @@ if user_input:
             print("\n--- CHUNKS DIAMBIL UNTUK KONTEKS LLM ---")
             for i, item in enumerate(retrieved_items):
                 print(f"Chunk {i+1} (Skor: {item.get('score', 'N/A'):.4f}, Kategori: {item.get('original_category', 'N/A')}):")
-                print(f"  Teks: {item.get('text_content', '')[:200]}...") # Log 200 char pertama dari setiap chunk
+                print(f"  Teks: {item.get('text_content', '')[:200]}...") 
                 context_parts.append(item.get('text_content', ''))
             
             context_for_llm = "\n\n---\n\n".join(context_parts)
