@@ -1,0 +1,765 @@
+{
+  "profil_sekolah": {
+    "nama": "SMK Medikacom Bandung",
+    "npsn": "20265534",
+    "status_sekolah": "Swasta",
+    "bentuk_pendidikan": "SMK",
+    "jenjang_pendidikan": "DIKMEN",
+    "alamat": "Jl. Rancabolang No. 10B, Manjahlega, Rancasari, Kota Bandung, Jawa Barat",
+    "lokasi_lengkap": {
+      "jalan": "Jl. Rancabolang No. 10B RT/RW 05/02",
+      "desa_kelurahan": "MANJAHLEGA",
+      "kecamatan": "KEC. RANCASARI",
+      "kabupaten_kota": "KOTA BANDUNG",
+      "provinsi": "PROV. JAWA BARAT"
+    },
+    "tanggal_berdiri": "22 April 2006",
+    "izin_walikota": "421.5/016-Huk/2007",
+    "yayasan": "Yayasan Pendidikan MEGABRAIN Indonesia",
+    "pengesahan_kemenhukam": "AHU-1751.AH.01.04",
+    "telepon": [
+      "(022) 7314090",
+      "7309811"
+    ],
+    "email": "info@medikacom.sch.id",
+    "whatsapp": "+62 815 8533 8606"
+  },
+  "sejarah": [
+    "SMK MedikaCom adalah sekolah vokasi unggulan dengan paradigma baru yaitu pendidikan berorientasi manfaat (Benefit Orientation) berbasis kompetensi keahlian terapan yang berkualitas tinggi sesuai tuntutan dunia usaha dan industri, serta Production Based Education. Kurikulum dirancang melibatkan dunia usaha dan industri agar lulusan memiliki daya saing tinggi dengan moto Enabling You To Industry."
+  ],
+  "visi_dan_misi": {
+    "visi": "Untuk mewujudkan peta peran SMK MedikaCom sebagai Pusat Keunggulan dengan pertumbuhan yang berkelanjutan (sustainable growth) di dalam lingkungan globalisasi, telah ditetapkan Visi, Misi, dan Tujuan Jangka Menengah dalam kurun waktu 5 tahun ke depan yaitu: PADA TAHUN 2025 MENJADI PUSAT PENDIDIKAN VOKASI YANG UNGGUL DALAM MENGEMBANGKAN KETERAMPILAN BERBASIS INDUSTRI DAN KEMANDIRIAN YANG DILANDASI AKHLAK MULIA, BERKEPRIBADIAN KEBANGSAAN DAN BERWAWASAN LINGKUNGAN",
+    "misi": [
+      "Menumbuhkan karakter, sistem nilai, dan budaya kerja berbasis industri, untuk mewujudkan jiwa sekolah yang kreatif, berprestasi, inovatif, dan demokratis.",
+      "Mengembangkan dan menerapkan pembelajaran berbasis proyek (Learning Project Based) dan berbasis digital (School Digital Based).",
+      "Menumbuhkan dan mendorong keunggulan dalam penerapan ilmu pengetahuan, teknologi, dan seni.",
+      "Merevitalisasi infrastruktur sarana-prasarana pembelajaran, workshop, laboratorium BERSTANDAR INDUSTRI dalam rangka pengembangan “advanced training & certification centre” dan teaching factory sebagai Centre Of Excellence.",
+      "Melaksanakan pengembangan dan perluasan jaringan kerjasama “mitra industri DUDIKA” dalam rangka mendukung program LULUSAN ZERO JOBLESS; (Bekerja, Melanjutkan, dan Wirausaha)."
+    ]
+  },
+  "pengetahuan_umum": {
+    "Akuntansi": {
+      "deskripsi": "Jurusan ini mempelajari cara mencatat, mengelola, dan menganalisis transaksi keuangan suatu organisasi atau perusahaan. Kamu juga akan belajar pajak, audit, dan penyusunan laporan keuangan.",
+      "karier": ["Akuntan", "auditor", "analis keuangan", "konsultan pajak", "staf keuangan"],
+      "kuliah_lanjutan": ["Akuntansi", "ekonomi", "manajemen", "keuangan"],
+      "fun_fact": "Akuntansi sering disebut sebagai “bahasa bisnis” karena semua keputusan penting di perusahaan biasanya berawal dari data keuangan."
+    },
+    "Farmasi": {
+      "deskripsi": "Di jurusan ini, kamu akan mempelajari cara meracik, mengelola, dan memahami obat-obatan. Gak cuma soal apotek, tapi juga tentang penelitian, produksi obat, dan pengawasan mutu.",
+      "karier": ["Apoteker", "analis laboratorium", "quality control", "peneliti farmasi", "staf distribusi obat"],
+      "kuliah_lanjutan": ["Farmasi", "kimia", "bioteknologi", "teknologi pangan"],
+      "fun_fact": "Seorang apoteker harus hafal ratusan nama zat aktif obat—dan tau mana yang gak boleh dikonsumsi bareng!"
+    },
+    "Rekayasa Perangkat Lunak": {
+      "deskripsi": "Jurusan ini fokus pada pengembangan aplikasi dan perangkat lunak, mulai dari coding, testing, sampai desain antarmuka pengguna. Kamu juga belajar kerja tim dan manajemen proyek.",
+      "karier": ["Programmer", "software engineer", "web developer", "UI/UX designer", "QA tester"],
+      "kuliah_lanjutan": ["Teknik informatika", "sistem informasi", "ilmu komputer"],
+      "fun_fact": "Banyak startup besar di dunia (kayak Facebook dan Gojek) berawal dari tim kecil anak-anak coding seperti kamu."
+    },
+    "Teknik Komputer dan Jaringan": {
+      "deskripsi": "Di TKJ, kamu akan belajar tentang komputer dari sisi perangkat keras dan jaringan—mulai dari instalasi, perakitan, sampai setting server dan troubleshooting.",
+      "karier": ["Network engineer", "teknisi IT", "admin server", "teknisi jaringan", "cybersecurity junior"],
+      "kuliah_lanjutan": ["Sistem komputer", "teknik jaringan", "keamanan siber"],
+      "fun_fact": "Hampir semua perusahaan butuh orang yang bisa jaga jaringan dan server biar gak ngadat. TKJ selalu dicari!"
+    },
+    "Tata Boga": {
+      "deskripsi": "Jurusan ini cocok buat kamu yang punya passion di dunia kuliner. Kamu akan belajar teknik memasak, penyajian, manajemen dapur, hingga nutrisi makanan.",
+      "karier": ["Chef", "food stylist", "pengusaha kuliner", "baker", "konsultan makanan"],
+      "kuliah_lanjutan": ["Tata boga", "perhotelan", "manajemen kuliner", "gizi"],
+      "fun_fact": "Banyak chef terkenal di dunia justru memulai kariernya dari sekolah kejuruan, bukan kuliah!"
+    },
+    "Teknik Sepeda Motor": {
+      "deskripsi": "Jurusan ini mempelajari perawatan dan perbaikan sepeda motor, termasuk sistem bahan bakar, kelistrikan, dan mekanik mesin.",
+      "karier": ["Mekanik motor", "teknisi bengkel", "service advisor", "modifikator"],
+      "kuliah_lanjutan": ["Teknik otomotif", "teknik mesin", "manajemen teknik"],
+      "fun_fact": "Banyak brand motor besar punya program kerja sama khusus dengan sekolah TSM untuk rekrutmen langsung."
+    },
+    "Teknik Kendaraan Ringan": {
+      "deskripsi": "TKR fokus ke sistem kendaraan roda empat: mesin, kelistrikan, transmisi, dan suspensi. Kamu juga belajar penggunaan alat bengkel modern.",
+      "karier": ["Teknisi mobil", "mekanik", "advisor bengkel", "teknisi pabrik otomotif"],
+      "kuliah_lanjutan": ["Teknik otomotif", "teknik mesin", "teknologi kendaraan"],
+      "fun_fact": "Teknologi mobil modern sekarang makin canggih—mekanik gak cuma pegang kunci pas, tapi juga laptop!"
+    },
+    "Teknik Pemesinan": {
+      "deskripsi": "Jurusan ini mempelajari cara mengoperasikan mesin industri seperti bubut, frais, dan CNC. Kamu juga belajar membaca gambar teknik dan membuat komponen mesin.",
+      "karier": ["Operator mesin", "teknisi manufaktur", "CNC programmer", "perakit mesin"],
+      "kuliah_lanjutan": ["Teknik mesin", "manufaktur", "teknologi industri"],
+      "fun_fact": "Hampir semua produk industri (dari HP sampai mobil) butuh komponen yang dibuat pakai mesin bubut dan sejenisnya."
+    },
+    "Usaha Perjalanan Wisata": {
+      "deskripsi": "Jurusan ini cocok buat kamu yang suka jalan-jalan dan ketemu orang baru. Kamu belajar cara merancang paket wisata, guiding, ticketing, sampai manajemen biro perjalanan.",
+      "karier": ["Tour guide", "travel consultant", "event planner", "staf biro wisata", "pemandu lokal"],
+      "kuliah_lanjutan": ["Pariwisata", "perhotelan", "manajemen event"],
+      "fun_fact": "Banyak pemandu wisata Indonesia sekarang sudah bersertifikat internasional dan bisa kerja di luar negeri, bro!"
+    },
+    "Manajemen Logistik": {
+      "deskripsi": "Di jurusan ini, kamu akan belajar cara mengatur distribusi barang, dari gudang sampai ke pelanggan. Fokusnya ke efisiensi, sistem penyimpanan, dan rantai pasok.",
+      "karier": ["Staf logistik", "inventory planner", "supply chain officer", "admin gudang", "pengatur distribusi"],
+      "kuliah_lanjutan": ["Logistik", "manajemen bisnis", "teknik industri"],
+      "fun_fact": "Dunia e-commerce gak bisa jalan tanpa sistem logistik yang rapi dan terencana."
+    },
+    "Bisnis Retail": {
+      "deskripsi": "Jurusan ini membahas semua aspek jual beli langsung ke konsumen: dari cara display produk, melayani pelanggan, sampai manajemen toko.",
+      "karier": ["Kasir", "staf toko", "supervisor retail", "merchandiser", "marketing support"],
+      "kuliah_lanjutan": ["Bisnis", "manajemen", "pemasaran", "kewirausahaan"],
+      "fun_fact": "Banyak pelaku bisnis sukses memulai dari dunia retail—belajar langsung dari pasar dan pelanggan!"
+    }
+  },
+  "biaya_pendidikan": {
+    "tahun_ajaran": "2025/2026",
+    "catatan_umum": "Pembayaran SPP paling lambat tanggal 10 setiap bulannya. Pembayaran dapat dilakukan secara Tunai di Loket Keuangan atau Non Tunai.",
+    "metode_pembayaran_non_tunai": {
+      "transfer_bank": [
+        {
+          "bank": "BRI",
+          "nomor_rekening": "040701000996304",
+          "atas_nama": "SMK MEDIKACOM"
+        },
+        {
+          "bank": "BNI",
+          "nomor_rekening": "8805885990",
+          "atas_nama": "SMK MEDIKACOM"
+        }
+      ],
+      "qris": "QR Code dapat dilihat pada link bit.ly/qrismedcom"
+    },
+    "rincian_per_kelompok": [
+      {
+        "kelompok_keahlian": "Teknik Kendaraan Ringan (TKR) & Teknik Sepeda Motor (TSM)",
+        "total_biaya_tahun_pertama": 5350000,
+        "termasuk": [
+          "DSP (Dana Sumbangan Pendidikan)",
+          "Biaya Praktikum 1 Tahun",
+          "Biaya Ujian Semester (UTS & UAS) 1 Tahun",
+          "Asuransi",
+          "SPP Bulan Juli 2025 sebesar Rp 350.000"
+        ],
+        "skema_cicilan": [
+          {
+            "tahap": "Pertama",
+            "jumlah": 4000000,
+            "batas_pembayaran": "12 Juli 2025"
+          },
+          {
+            "tahap": "Kedua",
+            "jumlah": 1350000,
+            "batas_pembayaran": "8 November 2025"
+          }
+        ]
+      },
+      {
+        "kelompok_keahlian": "Teknik Pemesinan (TPM)",
+        "total_biaya_tahun_pertama": 4850000,
+        "termasuk": [
+          "DSP (Dana Sumbangan Pendidikan)",
+          "Biaya Praktikum 1 Tahun",
+          "Biaya Ujian Semester (UTS & UAS) 1 Tahun",
+          "Asuransi",
+          "SPP Bulan Juli 2025 sebesar Rp 350.000"
+        ],
+        "skema_cicilan": [
+          {
+            "tahap": "Pertama",
+            "jumlah": 3500000,
+            "batas_pembayaran": "12 Juli 2025"
+          },
+          {
+            "tahap": "Kedua",
+            "jumlah": 1350000,
+            "batas_pembayaran": "8 November 2025"
+          }
+        ]
+      },
+      {
+        "kelompok_keahlian": "Akuntansi (AKN)",
+        "total_biaya_tahun_pertama": 4850000,
+        "termasuk": [
+          "DSP (Dana Sumbangan Pendidikan)",
+          "Biaya Praktikum 1 Tahun",
+          "Biaya Ujian Semester (UTS & UAS) 1 Tahun",
+          "Asuransi",
+          "SPP Bulan Juli 2025 sebesar Rp 350.000"
+        ],
+        "skema_cicilan": [
+          {
+            "tahap": "Pertama",
+            "jumlah": 3500000,
+            "batas_pembayaran": "12 Juli 2025"
+          },
+          {
+            "tahap": "Kedua",
+            "jumlah": 1350000,
+            "batas_pembayaran": "8 November 2025"
+          }
+        ]
+      },
+      {
+        "kelompok_keahlian": "Kuliner (KL)",
+        "total_biaya_tahun_pertama": 7850000,
+        "termasuk": [
+          "DSP (Dana Sumbangan Pendidikan)",
+          "Biaya Praktikum 1 Tahun",
+          "Biaya Ujian Semester (UTS & UAS) 1 Tahun",
+          "Asuransi",
+          "SPP Bulan Juli 2025 sebesar Rp 350.000"
+        ],
+        "skema_cicilan": [
+          {
+            "tahap": "Pertama",
+            "jumlah": 6000000,
+            "batas_pembayaran": "12 Juli 2025"
+          },
+          {
+            "tahap": "Kedua",
+            "jumlah": 1850000,
+            "batas_pembayaran": "8 November 2025"
+          }
+        ]
+      },
+      {
+        "kelompok_keahlian": "Layanan Penunjang Kefarmasian Klinis & Komunitas (FAR)",
+        "total_biaya_tahun_pertama": 7200000,
+        "termasuk": [
+          "DSP (Dana Sumbangan Pendidikan)",
+          "Biaya Praktikum 1 Tahun",
+          "Biaya Ujian Semester (UTS & UAS) 1 Tahun",
+          "Toolkit Box Praktikum",
+          "Asuransi",
+          "SPP Bulan Juli 2025 sebesar Rp 350.000"
+        ],
+        "skema_cicilan": [
+          {
+            "tahap": "Pertama",
+            "jumlah": 5000000,
+            "batas_pembayaran": "12 Juli 2025"
+          },
+          {
+            "tahap": "Kedua",
+            "jumlah": 2200000,
+            "batas_pembayaran": "8 November 2025"
+          }
+        ]
+      },
+      {
+        "kelompok_keahlian": "Rekayasa Perangkat Lunak (RPL), Teknik Komputer & Jaringan (TKJ), Pengembangan Gim (PG)",
+        "total_biaya_tahun_pertama": 6350000,
+        "termasuk": [
+          "DSP (Dana Sumbangan Pendidikan)",
+          "Biaya Praktikum 1 Tahun",
+          "Biaya Ujian Semester (UTS & UAS) 1 Tahun",
+          "Asuransi",
+          "SPP Bulan Juli 2025 sebesar Rp 350.000"
+        ],
+        "skema_cicilan": [
+          {
+            "tahap": "Pertama",
+            "jumlah": 5000000,
+            "batas_pembayaran": "12 Juli 2025"
+          },
+          {
+            "tahap": "Kedua",
+            "jumlah": 1350000,
+            "batas_pembayaran": "8 November 2025"
+          }
+        ]
+      },
+      {
+        "kelompok_keahlian": "Desain Komunikasi Visual (DKV)",
+        "total_biaya_tahun_pertama": 5350000,
+        "termasuk": [
+          "DSP (Dana Sumbangan Pendidikan)",
+          "Biaya Praktikum 1 Tahun",
+          "Biaya Ujian Semester (UTS & UAS) 1 Tahun",
+          "Asuransi",
+          "SPP Bulan Juli 2025 sebesar Rp 350.000"
+        ],
+        "skema_cicilan": [
+          {
+            "tahap": "Pertama",
+            "jumlah": 4000000,
+            "batas_pembayaran": "12 Juli 2025"
+          },
+          {
+            "tahap": "Kedua",
+            "jumlah": 1350000,
+            "batas_pembayaran": "8 November 2025"
+          }
+        ]
+      }
+    ]
+  },
+  "biaya_seragam": {
+    "tahun_ajaran": "2025/2026",
+    "pria": [
+      {
+        "kelompok_jurusan": "RPL & TKJ",
+        "total": 295000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga", "biaya": 110000 },
+          { "item": "Seragam Profesi Atasan", "biaya": 135000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "Farmasi",
+        "total": 550000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga", "biaya": 110000 },
+          { "item": "Seragam Profesi Lengkap", "biaya": 250000 },
+          { "item": "Jas Lab", "biaya": 140000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "Akuntansi",
+        "total": 440000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga", "biaya": 110000 },
+          { "item": "Seragam Profesi Atasan", "biaya": 135000 },
+          { "item": "Dasi Akuntansi", "biaya": 20000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "TKR",
+        "total": 510000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga", "biaya": 110000 },
+          { "item": "Seragam Profesi Atasan", "biaya": 135000 },
+          { "item": "Wearpack Otomotif", "biaya": 145000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "TSM",
+        "total": 570000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga", "biaya": 110000 },
+          { "item": "Seragam Profesi Atasan", "biaya": 135000 },
+          { "item": "Wearpack Otomotif", "biaya": 275000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "TPM",
+        "total": 435000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga", "biaya": 110000 },
+          { "item": "Seragam Profesi Atasan", "biaya": 135000 },
+          { "item": "Jas Lab", "biaya": 140000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "Tata Boga",
+        "total": 545000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga", "biaya": 110000 },
+          { "item": "Seragam Profesi Lengkap", "biaya": 330000 },
+          { "item": "Jas Lab", "biaya": 385000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "Samsung",
+        "total": 310000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga", "biaya": 110000 },
+          { "item": "Seragam Profesi Atasan", "biaya": 150000 }
+        ]
+      }
+    ],
+    "wanita_muslim": [
+      {
+        "kelompok_jurusan": "RPL & TKJ",
+        "total": 300000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga (Lengan Panjang)", "biaya": 115000 },
+          { "item": "Seragam Profesi Atasan", "biaya": 135000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "Farmasi",
+        "total": 555000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga (Lengan Panjang)", "biaya": 115000 },
+          { "item": "Seragam Profesi Lengkap", "biaya": 250000 },
+          { "item": "Jas Lab", "biaya": 140000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "Akuntansi",
+        "total": 515000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga (Lengan Panjang)", "biaya": 115000 },
+          { "item": "Seragam Profesi Lengkap", "biaya": 330000 },
+          { "item": "Dasi Akuntansi", "biaya": 20000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "TKR",
+        "total": 445000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga (Lengan Panjang)", "biaya": 115000 },
+          { "item": "Seragam Profesi Atasan", "biaya": 135000 },
+          { "item": "Wearpack Otomotif", "biaya": 145000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "TSM",
+        "total": 575000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga (Lengan Panjang)", "biaya": 115000 },
+          { "item": "Seragam Profesi Atasan", "biaya": 135000 },
+          { "item": "Wearpack Otomotif", "biaya": 275000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "TPM",
+        "total": 440000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga (Lengan Panjang)", "biaya": 115000 },
+          { "item": "Seragam Profesi Atasan", "biaya": 135000 },
+          { "item": "Jas Lab", "biaya": 140000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "Tata Boga",
+        "total": 550000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga (Lengan Panjang)", "biaya": 115000 },
+          { "item": "Seragam Profesi Lengkap", "biaya": 330000 },
+          { "item": "Jas Lab", "biaya": 385000 }
+        ]
+      },
+      {
+        "kelompok_jurusan": "Samsung",
+        "total": 315000,
+        "rincian": [
+          { "item": "Atribut (bendera, lokasi)", "biaya": 15000 },
+          { "item": "Topi", "biaya": 15000 },
+          { "item": "Dasi", "biaya": 20000 },
+          { "item": "Seragam Olah Raga (Lengan Panjang)", "biaya": 115000 },
+          { "item": "Seragam Profesi Atasan", "biaya": 150000 }
+        ]
+      }
+    ]
+  },
+  "kelas_industri": {
+    "catatan": "Kuota Terbatas & Ketentuan Berlaku",
+    "program": [
+      {
+        "nama_program": "Kelas Industri Samsung Tech Institute",
+        "jurusan_terkait": [
+          "Rekayasa Perangkat Lunak (RPL)",
+          "Teknik Komputer & Jaringan (TKJ)"
+        ],
+        "kuota": "RPL: 1 Kelas (36 Siswa) - TKJ : 1 Kelas (36 Siswa)",
+        "total_biaya_tahun_pertama": 9850000,
+        "biaya_termasuk": [
+          "DSP (Dana Sumbangan Pendidikan)",
+          "Biaya Praktikum 1 Tahun",
+          "Biaya Ujian Semester (UTS & UAS) 1 Tahun",
+          "Asuransi",
+          "SPP Bulan Juli 2025 sebesar Rp 350.000"
+        ],
+        "manfaat": [
+          "Fasilitas Praktikum Pembelajaran berupa 1 Unit Tablet Samsung dengan Paket Software STI (Samsung Tech Institute)",
+          "Integrated Kurikulum dari Samsung Tech Institute (sesuai pengembangan teknologi handphone Samsung)",
+          "Sertifikasi Uji Kompetensi Keahlian 'Analisis Perbaikan Handphone' Samsung Tech Institute",
+          "Fasilitas pemagangan di jaringan gerai resmi Samsung",
+          "Bersedia ditempatkan bekerja di seluruh jaringan gerai resmi Samsung",
+          "Mendapatkan pembelajaran Bahasa Korea dan pelatihan persiapan ujian TOPIK",
+          "Kesempatan magang dan bekerja di Korea melalui Perusahaan P3MI (Penempatan Pekerja Migran Indonesia)"
+        ],
+        "skema_cicilan": [
+          {
+            "tahap": "Pertama",
+            "jumlah": 7500000,
+            "batas_pembayaran": "12 Juli 2025"
+          },
+          {
+            "tahap": "Kedua",
+            "jumlah": 2350000,
+            "batas_pembayaran": "8 November 2025"
+          }
+        ]
+      },
+      {
+        "nama_program": "Kelas Industri Fiber Optik Telkom & Axioo International",
+        "jurusan_terkait": [
+          "Teknik Komputer & Jaringan (TKJ)"
+        ],
+        "kuota": "1 Kelas (36 Siswa)",
+        "total_biaya_tahun_pertama": 8850000,
+        "biaya_termasuk": [
+          "DSP (Dana Sumbangan Pendidikan)",
+          "Biaya Praktikum 1 Tahun",
+          "Biaya Ujian Semester (UTS & UAS) 1 Tahun",
+          "Asuransi",
+          "SPP Bulan Juli 2025 sebesar Rp 350.000"
+        ],
+        "manfaat": [
+          "Sertifikasi Kompetensi Fiber Optik dari PT. Telkom Indonesia Tbk",
+          "Fasilitas Praktikum Pembelajaran berupa 1 Unit Notebook Axioo",
+          "Sertifikasi Kompetensi Axioo Curriculum Program, kategori ACP#1, ACP#2, ACP#3",
+          "Kesempatan Prakerin di Axioo",
+          "Mendapatkan pembelajaran Bahasa Korea dan Bahasa Jepang",
+          "Mendapatkan pelatihan persiapan ujian TOPIK (Bahasa Korea) dan JLPT (Bahasa Jepang)"
+        ],
+        "skema_cicilan": [
+          {
+            "tahap": "Pertama",
+            "jumlah": 6500000,
+            "batas_pembayaran": "12 Juli 2025"
+          },
+          {
+            "tahap": "Kedua",
+            "jumlah": 2350000,
+            "batas_pembayaran": "8 November 2025"
+          }
+        ]
+      }
+    ]
+  },
+  "tenaga_pendidik_dan_staf": [
+    "Dr. Dokmen Lubis, S.E., M.M. – Kepala Sekolah",
+    "Adi Rizky Abdillah, S.Psi. – Guru Bimbingan Konseling",
+    "Amanda Anhar Nurlatifah, S.Pd. – Staf Bimbingan Konseling",
+    "Aneu Nurbayani, S.Pd. – Guru Bahasa Inggris",
+    "Anggi Herdiawan – Operator Sekolah",
+    "Anne Noor Hermaya Gustika, S.Pd. – Guru Pendidikan Kewarganegaraan",
+    "Annisa Febrianika, S.Pd. – Guru Matematika",
+    "Asep Hadiansyah – Staf Prakarya",
+    "Asep Hilmi Mutakin, S.T., M.Kom. – Guru Produktif Keahlian TJKT",
+    "Asteria Ardhya Putri, S.Sn. – Guru Seni Budaya & Bahasa Sunda",
+    "Aswan Sinulingga, S.Th. – Guru Pendidikan Agama Kristen",
+    "Atha Fadhilah – Teknisi Lab",
+    "Aulia Kiswahni, S.Pd. – Guru Pendidikan Kewarganegaraan",
+    "Ayunda Salsabila, S.Pd. – Guru Bahasa Inggris",
+    "Cucun Cunayah, S.Farm. – Kepala Program Keahlian Teknologi Farmasi",
+    "Denden Khuldun Mabrur, M.Pd. – Guru PJOK",
+    "Diah Trisnamayanti, S.S. – Guru Bahasa Inggris",
+    "Dian Maharani, S.Pd. – Guru Bahasa Indonesia",
+    "Dio Iman Dwiputra, S.Pd. – Guru Produktif Keahlian Akuntansi",
+    "Drs. A. Zam zam BZ, AMF., M.M. Kes – Guru Produktif Keahlian Teknologi Farmasi",
+    "Erlan Kuswara – Security",
+    "Firsie Syadzadyane Azzura, S.Pd – Guru Bahasa Korea",
+    "Frida Sela Salsabila, S.Pd. – Guru Matematika",
+    "Hani Rahmawati, S.T. – Kepala Program Keahlian PPLG (Pengembangan Perangkat Lunak dan Gim)",
+    "Hanisah, S.Pd – Kepala Program Keahlian Kuliner",
+    "Heri Adi Prasetyo, S.T. – Kepala Bengkel Teknik Sepeda Motor",
+    "Heri Suwanto – Staff Prakarya",
+    "Iis Ismawati, S.Kom., M.Kom – Plt. Kepala Sekolah",
+    "Ismayaini Ahmad Zais, S.T., M.M. – Wakil Kepala Sekolah Bidang Hubungan Industri",
+    "Ita Purnamasari – Staff Keuangan",
+    "Jumanta – Security",
+    "Kaka Pradita, S.Ds – Kepala program Keahlian TJKT (Teknik Jaringan Komputer dan Telekomunikasi)",
+    "Lista Yulianti, S.Pd – Guru Produktif Keahlian Kuliner",
+    "Luska Lusyana Sari, SE., M.M. – Guru Produktif Keahlian Akuntansi",
+    "Mira Nurhayani, S.T. – Guru Projek Ilmu Pengetahuan Alam & Sosial",
+    "Moch. Abdurrodjak, ST – Kepala Lab & Guru Kelas Industri SAMSUNG",
+    "Mulyani, S.Si, Apt – Guru Produktif Keahlian Teknologi Farmasi",
+    "Nanda Luri Perdana – Staf PJ. Sarana & Prasarana",
+    "Naufal Nazmuddin, S.Pd – Guru Pendidikan Agama Islam",
+    "Nisa Rachmawati, S.Pd. – Guru Pendidikan Kewarganegaraan",
+    "Nosep Sumarto, M.Pd – Guru Matematika",
+    "Nur Islamiyati, S.Pd. – Guru Projek Ilmu Pengetahuan Alam & Sosial",
+    "Raihan Kemal Ibrahim, S.Pd. – Guru Produktif Keahlian Akuntansi",
+    "Rani Nurhayati, S.Pd., M.M. – Wakil Kepala Sekolah Bidang Kesiswaan",
+    "Reyhan Fauzan Nugroho, S.Kom – Staf IT SIM (Sistem Informasi Manajemen)",
+    "Rina Yafiya Friskila Manurung, SE – Staf Bendahara Sekolah",
+    "Rio Fery Setiawan, S.Pd. – Guru Pendidikan Jasmani, Olahraga & Kesehatan",
+    "Rizal Nurhadiansyah – Kepala Bengkel Teknik Kendaraan Ringan",
+    "Rizky Trimidziana, S.Ak. – Kepala Program Keahlian Akuntansi",
+    "Rr. Isni Anisah Puspowati, M.Kom – Guru Produktif Keahlian PPLG",
+    "Rustianingsih, M.Si – Wakil Kepala Sekolah Bidang Kurikulum",
+    "Ryantama Zhafir Baharuddin, S.Pd. – Kepala Program Keahlian Teknik Kendaraan Ringan & Teknik Sepeda Motor",
+    "Sandy Andriansyah, S.T. – Guru Produktif Keahlian Teknik Sepeda Motor",
+    "Sani Gunari, S.Pd – Guru Pendidikan Agama Islam",
+    "Septian Herdiansyah, S.T. – Guru Produktif Keahlian Teknik Pemesinan",
+    "Siti Patimah, S.Pd – Guru Produktif Keahlian Kuliner",
+    "Sunarno – Staf Prakarya",
+    "Suprihwanto – Staf Prakarya",
+    "Uus Kusnadi, SE., M.MPd. – Wakil Kepala Sekolah Bidang Tata Usaha & HRD",
+    "Vira Aulya Rabbani, S.Li – Guru Bahasa Jepang",
+    "Welin Tikei – Security",
+    "Wildan Husaeni, S.T. – Kepala Program Keahlian Teknik Pemesinan",
+    "Wiwin Heryani, S.Pd.I – Guru Pendidikan Agama Islam",
+    "Yani, S.S. – Guru Bahasa Jepang",
+    "Yeni Hendriyati Ningsih, S.Kom., M.M – Guru Produktif Keahlian TJKT",
+    "Yusiana Sa'adiah, S.Pd. – Guru Sejarah Indonesia"
+  ],
+  "informasi_tambahan": {
+    "pembayaran": "DSP bisa dicicil Dalam 2x pembayaran seperti yang tertera pada brosur biaya pendidikan.",
+    "parkir": "Sekolah tidak menyediakan lapangan parkir untuk siswa, tetapi kendaraan bisa diparkir di samping sekolah (pasar), depan sekolah, atau di samping RS Humana.",
+    "biaya": "DSP hanya 1 kali saat pendaftaran di kelas X dan bisa dicicil 2x. Di kelas XI dan XII tidak ada DSP, hanya SPP bulanan.",
+    "akreditasi": "SMK MedikaCom sudah terakreditasi A (Amat Baik)",
+    "jurusan": [
+      "Akuntansi",
+      "Farmasi",
+      "Rekayasa Perangkat Lunak",
+      "Teknik Komputer Jaringan",
+      "Tata Boga",
+      "Teknik Sepeda Motor",
+      "Teknik Kendaraan Ringan",
+      "Teknik Pemesinan",
+      "Unit Perjalanan Wisata",
+      "Manajemen Logistik",
+      "Bisnis Retail"
+    ]
+  },
+  "ekstrakurikuler": [
+    "PMR",
+    "Pramuka",
+    "Paskibra",
+    "Rohis",
+    "Teater (English Creative Class / teater)",
+    "Pencak Silat",
+    "Karate",
+    "E-Sport",
+    "Basket",
+    "Futsal",
+    "Bulutangkis",
+    "Volley Ball",
+    "Kabaret",
+    "Paduan Suara",
+    "Modern Dance",
+    "Angklung",
+    "Content Creator",
+    "Tari Tradisional"
+  ],
+  "panduan_ppdb": {
+    "Belum Pendaftaran Mandiri": {
+      "deskripsi": "Alur untuk calon siswa yang datang ke sekolah dan belum melakukan pendaftaran online mandiri.",
+      "langkah_langkah": [
+        {
+          "langkah_ke": 1,
+          "tugas": "Mengarahkan pengisian Form Pendaftaran Online.",
+          "media": "HP Calon Siswa Baru / Laptop Sekolah / HP Petugas"
+        },
+        {
+          "langkah_ke": 2,
+          "tugas_utama": "Proses Pembayaran Pendaftaran.",
+          "opsi_pembayaran": [
+            {
+              "metode": "Tunai",
+              "detail": "Gunakan Kwitansi, dan berikan lembar putih ke pendaftar untuk dimasukkan ke MAP Coklat.",
+              "media": "Kwitansi"
+            },
+            {
+              "metode": "Non-Tunai",
+              "detail": "Arahkan untuk melakukan SCAN QRIS.",
+              "media": "QRIS"
+            }
+          ]
+        },
+        {
+          "langkah_ke": 3,
+          "tugas": "Mendokumentasikan Bukti Transaksi.",
+          "media": "Foto via HP Petugas"
+        },
+        {
+          "langkah_ke": 4,
+          "tugas": "Memberi penjelasan bahwa dokumen akan dikirim via WA admin dalam 1x24 jam.",
+          "media": "WA Admin"
+        },
+        {
+          "langkah_ke": 5,
+          "tugas": "Kirim bukti bayar ke admin.",
+          "media": "WA Admin (085183010108)"
+        },
+        {
+          "langkah_ke": 6,
+          "tugas": "Setor tunai ke bagian keuangan.",
+          "media": "ITA (Kampus 1) atau Mas Wanto/Narno (Kampus 2)"
+        }
+      ]
+    },
+    "Sudah Pendaftaran Mandiri": {
+      "deskripsi": "Alur untuk calon siswa yang sudah mendaftar online mandiri dan datang ke sekolah untuk konfirmasi atau pembayaran.",
+      "langkah_langkah": [
+        {
+          "langkah_ke": 1,
+          "tugas": "Cek nama calon siswa di sistem.",
+          "media": "Link Looker atau grup petugas PPDB"
+        },
+        {
+          "langkah_ke": 2,
+          "tugas_utama": "Proses Pembayaran Pendaftaran.",
+          "opsi_pembayaran": [
+            {
+              "metode": "Tunai",
+              "detail": "Gunakan Kwitansi, dan berikan lembar putih ke pendaftar untuk dimasukkan ke MAP Coklat.",
+              "media": "Kwitansi"
+            },
+            {
+              "metode": "Non-Tunai",
+              "detail": "Arahkan untuk melakukan SCAN QRIS.",
+              "media": "QRIS"
+            }
+          ]
+        },
+        {
+          "langkah_ke": 3,
+          "tugas": "Mendokumentasikan Bukti Transaksi.",
+          "media": "Foto via HP Petugas"
+        },
+        {
+          "langkah_ke": 4,
+          "tugas": "Memberi penjelasan bahwa dokumen akan dikirim via WA admin dalam 1x24 jam.",
+          "media": "WA Admin"
+        },
+        {
+          "langkah_ke": 5,
+          "tugas": "Kirim bukti bayar ke admin.",
+          "media": "WA Admin (085183010108)"
+        },
+        {
+          "langkah_ke": 6,
+          "tugas": "Setor tunai ke bagian keuangan.",
+          "media": "ITA (Kampus 1) atau Mas Wanto/Narno (Kampus 2)"
+        }
+      ]
+    }
+  }
+}
+  
