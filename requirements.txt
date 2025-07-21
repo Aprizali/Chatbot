@@ -1,0 +1,9 @@
+streamlit
+neo4j
+sentence-transformers
+torch
+torchvision
+torchaudio
+transformers
+requests
+groq
